@@ -18,7 +18,7 @@ let pcInitalScore = 1;
 
 function winnerVerify() {
   if(yourScore.textContent == 20) {
-    alert(`Você de ganhou de ${yourScore.textContent} à ${yourScore.textContent}`)
+    alert(`Você de ganhou de ${yourScore.textContent} à ${pcScore.textContent}`)
     location.reload()
   } else if (pcScore.textContent == 20) {
     alert(`O computador ganhou de ${pcScore.textContent} à ${yourScore.textContent}`)
